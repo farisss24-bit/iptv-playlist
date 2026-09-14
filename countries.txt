@@ -1,1 +1,4 @@
-https://gist.githubusercontent.com/farisss24-bit/15e6cc04b44afa111ee9c16ddb17e178/raw/36d384d3a1be61adba05822901a41592fbcfb23a/playlist.m3u
+https://iptv-org.github.io/iptv/countries/fr.m3u
+https://iptv-org.github.io/iptv/countries/be.m3u
+https://iptv-org.github.io/iptv/countries/dz.m3u
+https://iptv-org.github.io/iptv/countries/ma.m3u
