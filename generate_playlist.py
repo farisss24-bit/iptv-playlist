@@ -30,7 +30,21 @@ COUNTRY_NAMES = {
     "jp": "🇯🇵 Japon",
     "kr": "🇰🇷 Corée du Sud",
     "au": "🇦🇺 Australie",
+    "se": "🇸🇪 Suède",
+    "no": "🇳🇴 Norvège",
+    "dk": "🇩🇰 Danemark",
+    "fi": "🇫🇮 Finlande",
+    "pl": "🇵🇱 Pologne",
+    "cz": "🇨🇿 Tchéquie",
+    "gr": "🇬🇷 Grèce",
+    "ro": "🇷🇴 Roumanie",
+    "bg": "🇧🇬 Bulgarie",
+    "hr": "🇭🇷 Croatie",
+    "rs": "🇷🇸 Serbie",
+    "ua": "🇺🇦 Ukraine",
+    "ru": "🇷🇺 Russie",
 }
+
 
 def download(url):
     request = urllib.request.Request(
@@ -51,6 +65,12 @@ def country_from_url(url):
     code = match.group(1)
 
     return COUNTRY_NAMES.get(code, code.upper())
+
+
+def extract_country_urls(text):
+    pattern = r"https://iptv-org\.github\.io/iptv/countries/[a-z]{2}\.m3u"
+
+    return re.findall(pattern, text.lower())
 
 
 def process_playlist(url):
@@ -74,13 +94,12 @@ def process_playlist(url):
     i = 0
 
     while i < len(lines):
+
         line = lines[i].strip()
 
         if line.startswith("#EXTINF:"):
 
             info = line
-
-            # Cherche l'URL qui suit EXTINF
             j = i + 1
 
             while j < len(lines):
@@ -93,7 +112,6 @@ def process_playlist(url):
 
             if j < len(lines):
 
-                # Ajoute/remplace group-title
                 if "group-title=" in info:
                     info = re.sub(
                         r'group-title="[^"]*"',
@@ -119,17 +137,30 @@ def process_playlist(url):
 
 def main():
 
-    urls = []
-
-    # Lecture des liens
+    # Lire countries.txt
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
+        source = f.read()
 
-            if line.startswith("http"):
-                urls.append(line)
+    print("Lecture de la source...")
 
-    print(f"{len(urls)} playlists trouvées.")
+    # Le fichier contient le lien vers le Gist
+    if source.startswith("http"):
+
+        print("Téléchargement du Gist...")
+
+        try:
+            source = download(source)
+        except Exception as e:
+            print(f"Impossible de télécharger le Gist : {e}")
+            return
+
+    # Récupérer automatiquement tous les liens pays
+    urls = extract_country_urls(source)
+
+    # Supprimer les doublons tout en gardant l'ordre
+    urls = list(dict.fromkeys(urls))
+
+    print(f"{len(urls)} pays trouvés.")
 
     playlist = ["#EXTM3U"]
 
@@ -142,8 +173,11 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"Playlist créée : {OUTPUT_FILE}")
-    print(f"Nombre total de lignes : {len(playlist)}")
+    print("================================")
+    print("Playlist créée avec succès !")
+    print(f"Pays : {len(urls)}")
+    print(f"Lignes : {len(playlist)}")
+    print("================================")
 
 
 if __name__ == "__main__":
