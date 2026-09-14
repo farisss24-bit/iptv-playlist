@@ -11,70 +11,36 @@ def download(url):
         url,
         headers={"User-Agent": "Mozilla/5.0"}
     )
-
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
 def country_name(code):
     names = {
-        "dz": "🇩🇿 Algérie",
-        "bh": "🇧🇭 Bahreïn",
         "fr": "🇫🇷 France",
         "be": "🇧🇪 Belgique",
-        "de": "🇩🇪 Allemagne",
-        "es": "🇪🇸 Espagne",
-        "it": "🇮🇹 Italie",
-        "pt": "🇵🇹 Portugal",
-        "nl": "🇳🇱 Pays-Bas",
-        "lu": "🇱🇺 Luxembourg",
-        "gb": "🇬🇧 Royaume-Uni",
-        "ch": "🇨🇭 Suisse",
-        "at": "🇦🇹 Autriche",
-        "tr": "🇹🇷 Turquie",
+        "dz": "🇩🇿 Algérie",
         "ma": "🇲🇦 Maroc",
-        "tn": "🇹🇳 Tunisie",
-        "ca": "🇨🇦 Canada",
-        "us": "🇺🇸 États-Unis",
-        "br": "🇧🇷 Brésil",
-        "mx": "🇲🇽 Mexique",
-        "in": "🇮🇳 Inde",
-        "jp": "🇯🇵 Japon",
-        "kr": "🇰🇷 Corée du Sud",
-        "au": "🇦🇺 Australie",
-        "se": "🇸🇪 Suède",
-        "no": "🇳🇴 Norvège",
-        "dk": "🇩🇰 Danemark",
-        "fi": "🇫🇮 Finlande",
-        "pl": "🇵🇱 Pologne",
-        "cz": "🇨🇿 Tchéquie",
-        "gr": "🇬🇷 Grèce",
-        "ro": "🇷🇴 Roumanie",
-        "bg": "🇧🇬 Bulgarie",
-        "hr": "🇭🇷 Croatie",
-        "rs": "🇷🇸 Serbie",
-        "ua": "🇺🇦 Ukraine",
-        "ru": "🇷🇺 Russie",
     }
-
     return names.get(code, code.upper())
 
 
-def find_country_urls(text):
-    pattern = r"https?://iptv-org\.github\.io/iptv/countries/([a-zA-Z]{2})\.m3u"
+def get_country_urls():
+    lines = Path(INPUT_FILE).read_text(
+        encoding="utf-8"
+    ).splitlines()
 
-    matches = re.findall(pattern, text)
+    urls = []
 
-    result = []
+    for line in lines:
+        line = line.strip()
 
-    for code in matches:
-        code = code.lower()
-        url = f"https://iptv-org.github.io/iptv/countries/{code}.m3u"
+        if line.startswith("http://") or line.startswith("https://"):
+            if "/countries/" in line and line.endswith(".m3u"):
+                if line not in urls:
+                    urls.append(line)
 
-        if url not in result:
-            result.append(url)
-
-    return result
+    return urls
 
 
 def process_country(url):
@@ -95,7 +61,7 @@ def process_country(url):
     try:
         content = download(url)
     except Exception as error:
-        print(f"ERREUR {country}: {error}")
+        print(f"ERREUR : {error}")
         return []
 
     lines = content.splitlines()
@@ -108,10 +74,10 @@ def process_country(url):
 
         info = line
 
-        # Cherche l'URL de la chaîne
         stream_url = None
 
         for j in range(i + 1, min(i + 5, len(lines))):
+
             candidate = lines[j].strip()
 
             if candidate.startswith("http"):
@@ -121,25 +87,27 @@ def process_country(url):
         if not stream_url:
             continue
 
-        # Supprime l'ancien group-title
+        # Supprimer l'ancien group-title
         info = re.sub(
-            r'group-title="[^"]*"',
+            r'\s*group-title="[^"]*"',
             "",
             info
         )
 
-        # Ajoute notre groupe pays
-        if info.startswith("#EXTINF:-1"):
-            info = info.replace(
-                "#EXTINF:-1",
-                f'#EXTINF:-1 group-title="{country}"',
-                1
-            )
+        # Ajouter le pays
+        info = re.sub(
+            r'(#EXTINF:[^ ]+)',
+            rf'\1 group-title="{country}"',
+            info,
+            count=1
+        )
 
         output.append(info)
         output.append(stream_url)
 
-    print(f"  → {len(output) // 2} chaînes trouvées")
+    print(
+        f"  → {len(output) // 2} chaînes trouvées"
+    )
 
     return output
 
@@ -150,36 +118,12 @@ def main():
     print("GÉNÉRATION PLAYLIST IPTV")
     print("====================================")
 
-    # Lire countries.txt
-    source_file = Path(INPUT_FILE)
-
-    if not source_file.exists():
-        print("ERREUR : countries.txt introuvable")
-        return
-
-    source = source_file.read_text(
-        encoding="utf-8"
-    ).strip()
-
-    # Si countries.txt contient le lien vers le Gist
-    if source.startswith("http"):
-
-        print("Téléchargement du Gist...")
-
-        try:
-            source = download(source)
-        except Exception as error:
-            print(f"ERREUR Gist : {error}")
-            return
-
-    # Trouver les pays
-    urls = find_country_urls(source)
+    urls = get_country_urls()
 
     print(f"Pays trouvés : {len(urls)}")
 
     if not urls:
-        print("Aucun lien IPTV-org trouvé.")
-        print("Vérifie le contenu de ton Gist.")
+        print("Aucun pays trouvé.")
         return
 
     playlist = ["#EXTM3U"]
@@ -194,10 +138,12 @@ def main():
         encoding="utf-8"
     )
 
+    total = (len(playlist) - 1) // 2
+
     print("====================================")
     print("PLAYLIST TERMINÉE")
     print(f"Pays : {len(urls)}")
-    print(f"Chaînes : {(len(playlist) - 1) // 2}")
+    print(f"Chaînes : {total}")
     print("====================================")
 
 
