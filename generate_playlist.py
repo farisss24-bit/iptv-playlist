@@ -4,6 +4,7 @@ from pathlib import Path
 
 INPUT_FILE = "countries.txt"
 OUTPUT_FILE = "playlist.m3u"
+EXTRA_FILE = "selection_FranceSD_Belgique_MBC_News_UK.m3u"
 
 
 def download(url):
@@ -111,7 +112,37 @@ def process_country(url):
 
     return output
 
+def process_extra_file(filename):
+    path = Path(filename)
 
+    if not path.exists():
+        print(f"Fichier supplémentaire introuvable : {filename}")
+        return []
+
+    print(f"Ajout du fichier : {filename}")
+
+    lines = path.read_text(
+        encoding="utf-8",
+        errors="replace"
+    ).splitlines()
+
+    output = []
+
+    for line in lines:
+        line = line.strip()
+
+        if not line or line == "#EXTM3U":
+            continue
+
+        output.append(line)
+
+    count = sum(
+        1 for line in output
+        if line.startswith("#EXTINF:")
+    )
+
+    print(f"  → {count} chaînes supplémentaires")
+    return output
 def main():
 
     print("====================================")
@@ -132,13 +163,18 @@ def main():
         playlist.extend(
             process_country(url)
         )
-
+    playlist.extend(
+        process_extra_file(EXTRA_FILE)
+    )
     Path(OUTPUT_FILE).write_text(
         "\n".join(playlist) + "\n",
         encoding="utf-8"
     )
 
-    total = (len(playlist) - 1) // 2
+ total = sum(
+    1 for line in playlist
+    if line.startswith("#EXTINF:")
+)
 
     print("====================================")
     print("PLAYLIST TERMINÉE")
