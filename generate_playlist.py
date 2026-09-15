@@ -171,10 +171,10 @@ def main():
         encoding="utf-8"
     )
 
- total = sum(
-    1 for line in playlist
-    if line.startswith("#EXTINF:")
-)
+    total = sum(
+        1 for line in playlist
+        if line.startswith("#EXTINF:")
+    )
 
     print("====================================")
     print("PLAYLIST TERMINÉE")
