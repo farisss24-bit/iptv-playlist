@@ -45,8 +45,6 @@ http://145.239.5.177/329/index.m3u8
 http://145.239.5.177/368/index.m3u8
 #EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="Matele.be@SD" tvg-logo="https://i.imgur.com/rw72POr.png",Matele (1080p) [Not 24/7]
 https://live.matele.be/hls/live.m3u8
-#EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="MCMTop.fr@SD" tvg-logo="https://i.imgur.com/EVtWQLd.png",MCM Top (France) (1080p)
-http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="MNM.be@SD" tvg-logo="https://i.imgur.com/L4cD18H.png",MNM (720p)
 https://live-radio-cf-vrt.akamaized.net/groupa/live/bac277a1-306d-44a0-8e2e-e5b9c07fa270/live.isml/.m3u8
 #EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="MTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",MTV (France)
@@ -341,8 +339,6 @@ http://99.27.51.147:8080/M6/index.m3u8
 http://145.239.5.177/320/index.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="MacGyver.de@FR" tvg-logo="https://images.pluto.tv/channels/6245ccd0c6cdb800074632e4/colorLogoPNG.png",MacGyver (Germany)
 https://jmp2.uk/plu-6245ccd0c6cdb800074632e4.m3u8
-#EXTINF:-1 group-title="🇫🇷 France" tvg-id="MCMTop.fr@SD" tvg-logo="https://i.imgur.com/EVtWQLd.png",MCM Top (France) (1080p)
-http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="MDL.fr@SD" tvg-logo="https://i.imgur.com/REN30bx.png",MDL (720p)
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="Mezzo.fr@SD" tvg-logo="https://i.imgur.com/auNdGeW.png",Mezzo (1080p)
@@ -2311,7 +2307,7 @@ https://cdn1.etbon.eus/etb2on/index.m3u8
 https://cdn1.etbon.eus/oc1/index.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="etv.es@SD" tvg-logo="https://i.imgur.com/Waf1SOq.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160",etv (1080p)
 https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8
-#EXTINF:-1 group-title="ES" tvg-id="EWTN.us@SpainLatinAmerica" tvg-logo="https://i.imgur.com/sua70RO.png",EWTN (United States) Spain & Latin America (720p)
+#EXTINF:-1 group-title="ES" tvg-id="EWTN.us@SpainLatinAmerica" tvg-logo="https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",EWTN (United States) Spain & Latin America (720p)
 https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="EWTNEspana.es@SD" tvg-logo="https://i.imgur.com/KvpMbkd.png",EWTN Espana
 https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/q6xkg9py/480/chunklist.m3u8
@@ -3583,8 +3579,6 @@ https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8
 https://jmp2.uk/plu-5d4af2ffa9506ab29cf38c38.m3u8
 #EXTINF:-1 group-title="UK" tvg-id="PlutoTVPetrolHeads.de@GB" tvg-logo="https://images.pluto.tv/channels/65a7b0814a10d800085ff2df/colorLogoPNG.png",Pluto TV PetrolHeads
 https://jmp2.uk/plu-65a7b0814a10d800085ff2df.m3u8
-#EXTINF:-1 group-title="UK" tvg-id="PlutoTVPokemon.us@UK" tvg-logo="https://i.imgur.com/GEbRABE.png",Pluto TV Pokemon UK
-https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8
 #EXTINF:-1 group-title="UK" tvg-id="PlutoTVReality.de@GB" tvg-logo="https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png",Pluto TV Reality (Germany) GB
 https://jmp2.uk/plu-5bd8186d53ed2c6334ea0855.m3u8
 #EXTINF:-1 group-title="UK" tvg-id="PlutoTVRetroToons.de@GB" tvg-logo="https://images.pluto.tv/channels/611e6a9b4bb5790007a6f0f8/colorLogoPNG.png",Pluto TV Retro Toons GB
