@@ -323,7 +323,7 @@ https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="M6.fr@HD" tvg-logo="https://i.imgur.com/7GVp3fW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",M6 HD (1080p)
 http://99.27.51.147:8080/M6/index.m3u8
-#EXTINF:-1 group-title="🇫🇷 France" tvg-id="M6Music.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c9/M6_Music_%282012%29.png",M6 Music (720p)
+#EXTINF:-1 group-title="🇫🇷 France" tvg-id="M6Music.fr@SD" tvg-logo="",M6 Music (720p)
 http://145.239.5.177/320/index.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="MDL.fr@SD" tvg-logo="https://i.imgur.com/REN30bx.png",MDL (720p)
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
@@ -1317,6 +1317,8 @@ https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/
 https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="ClassCNBC.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Class_CNBC_2026.svg/960px-Class_CNBC_2026.svg.png",Class CNBC (1080p)
 https://www.dailymotion.com/cdn/live/video/x91c8ww.m3u8?sec=D9OwEfHs-e7O6pQ-qlnROg
+#EXTINF:-1 group-title="IT" tvg-id="ClassTVModa.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Class-tv-moda.png/960px-Class-tv-moda.png" http-user-agent="Enigma2",Class TV Moda
+https://racitonsen.s.gy/CLASS_TV_MODA
 #EXTINF:-1 group-title="IT" tvg-id="CompanyTV.it@SD" tvg-logo="https://i.imgur.com/ccdwsWj.png",Company TV (720p)
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="CusanoItaliaTV.it@SD" tvg-logo="https://i.imgur.com/fOluzuE.png",Cusano Italia TV (720p)
@@ -1845,6 +1847,8 @@ http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
 https://live.mariatvcdn.com/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="TVRS.it@SD" tvg-logo="https://i.imgur.com/6bxtL6D.png",TVRS (576p) [Not 24/7]
 http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8
+#EXTINF:-1 group-title="IT" tvg-id="Twentyseven.it@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/960px-Twentyseven_logo.svg.png" http-user-agent="HbbTV/1.6.1",Twentyseven HD (1080p) [Geo-blocked]
+https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 #EXTINF:-1 group-title="IT" tvg-id="UmbriaTV.it@SD" tvg-logo="https://i.imgur.com/olJIJ7c.png",Umbria TV (576p) [Not 24/7]
 https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="UniNettunoUniversityTV.it@SD" tvg-logo="https://i.imgur.com/c9So8nf.png",UniNettuno University TV (720p)
@@ -2061,8 +2065,8 @@ https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_a
 https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="AnimeVisionClassics.es@SD" tvg-logo="https://i.imgur.com/mTaiEE1.png",Anime Vision Classics (1080p)
 https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
-#EXTINF:-1 group-title="ES" tvg-id="Antena3Internacional.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png",Antena 3 Internacional
-http://177.10.184.193:8000/play/a06a/index.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="Antena3Internacional.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png",Antena 3 Internacional (1080p)
+http://38.252.238.18:8000/play/a04a/index.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="ArabiTV.es@SD" tvg-logo="https://i.ibb.co/9Vp9Ghg/LOGO-WEB-ARABI-TV-3.png",Arabi TV (1080p)
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="ArchivosForenses.us@Spain" tvg-logo="https://i.imgur.com/Pxrl9Ug.png",Archivos Forenses
