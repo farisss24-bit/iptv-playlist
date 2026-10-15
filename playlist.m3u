@@ -443,8 +443,10 @@ https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjaz
 http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/1038/index.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="Ridiculousness.de@FR" tvg-logo="https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png",Ridiculousness (Germany) (720p)
 https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8
+#EXTINF:-1 group-title="🇫🇷 France" tvg-id="RMCDecouverte.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png",RMC Decouverte (1080p)
+https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="RMCLife.fr@SD" tvg-logo="https://img1.dc2.oqee.net/channel_pictures/3606/w512",RMC Life (1080p)
-http://145.239.5.177/333/index.m3u8
+https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="RMCStory.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png",RMC Story (1080p)
 https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
 #EXTINF:-1 group-title="🇫🇷 France" tvg-id="RTFrance.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png",RT France (1080p) [Geo-blocked]
@@ -1083,6 +1085,8 @@ https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.
 https://jmp2.uk/plu-68d2759a59fd82da3226492d.m3u8
 #EXTINF:-1 group-title="DE" tvg-id="TideTV.de@SD" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png",Tide TV (1080p)
 https://5889e7d0d6e28.streamlock.net/tide-live/_definst_/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 group-title="DE" tvg-id="TLC.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png",TLC (Germany) (576p)
+https://s6.hopslan.com/tlcX/index.m3u8
 #EXTINF:-1 group-title="DE" tvg-id="TNTInternational.ru@Europe" tvg-logo="https://i.imgur.com/l0RGbRI.png",TNT International (480p)
 http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
 #EXTINF:-1 group-title="DE" tvg-id="TotallyTurtles.de@DACH" tvg-logo="https://images.pluto.tv/channels/5d6792bd6be2998ad0ccce30/colorLogoPNG.png",Totally Turtles (Germany) (720p)
@@ -1361,6 +1365,8 @@ https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8
 https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="DiscoveryChannel.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png",Discovery Channel (Italy) (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
+#EXTINF:-1 group-title="IT" tvg-id="DiscoveryTurbo.it@SD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Discovery_Turbo_Italy.svg/1920px-Discovery_Turbo_Italy.svg.png",Discovery Turbo (Italy) (1080p)
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="DisneyChannel.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",Disney Channel (Germany) (576p)
 https://s6.hopslan.com/disneyX/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="DMAX.it@SD" tvg-logo="https://i.imgur.com/uGd9fnn.png",DMAX (Italy) (1080p)
@@ -2115,7 +2121,7 @@ https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 https://jmp2.uk/plu-5f984f4a09e92d0007d74647.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="AXNMovies.es@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/AXN_Movies_logo.svg/revision/latest/scale-to-width-down/512",AXN Movies (Spain)
 https://cdn.stmify.com/zapitv/stream/AXN_MOVIES/axn_white.mpd
-#EXTINF:-1 group-title="ES" tvg-id="AXNWhite.us@SD" tvg-logo="https://i.imgur.com/47IKxmt.png" http-referrer="https://cool-tv.net/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18",AXN White
+#EXTINF:-1 group-title="ES" tvg-id="AXNWhite.us@SD" tvg-logo="https://i.imgur.com/47IKxmt.png" http-referrer="https://cool-tv.net/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18",AXN White (United States)
 https://onyx1.mofta1.cfd/axwhite/usergenx23rnd.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="AzCorazon.mx@SD" tvg-logo="https://i.imgur.com/KIpSdQC.png",Az Corazon (720p)
 http://200.115.120.1:8000/play/ca020/index.m3u8
@@ -2581,7 +2587,7 @@ https://jmp2.uk/plu-63d7a8e5a9957100086bfc23.m3u8
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="StarTrekVoyager.de@ES" tvg-logo="https://images.pluto.tv/channels/65787f2eb228b7000843fa5c/colorLogoPNG.png",Star Trek: Voyager (Germany)
 https://jmp2.uk/plu-65787f2eb228b7000843fa5c.m3u8
-#EXTINF:-1 group-title="ES" tvg-id="SundanceTV.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png",Sundance TV
+#EXTINF:-1 group-title="ES" tvg-id="SundanceTV.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png",Sundance TV (Spain)
 https://cdn.stmify.com/zapitv/stream/SUNDANCE_TV/sundance_hd.mpd
 #EXTINF:-1 group-title="ES" tvg-id="SX3.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SX3_logo.svg/960px-SX3_logo.svg.png",SX3 (1080p) [Geo-blocked]
 https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
@@ -3025,6 +3031,8 @@ https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="TurkHaberTV.tr@SD" tvg-logo="https://i.imgur.com/2AcRKdL.png",TurkHaber TV (720p)
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 group-title="TR" tvg-id="TurksatTanitim.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/T%C3%BCrksat_logo.svg/960px-T%C3%BCrksat_logo.svg.png",Turksat Tanitim (1080p) [Geo-blocked]
+http://176.65.153.26:6004/play/a02s/index.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="TV1.tr@SD" tvg-logo="https://i.imgur.com/8CtrYVb.png",TV 1 (720p)
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="TV4.tr@SD" tvg-logo="https://i.imgur.com/UpsQsbd.png",TV 4 (720p)
