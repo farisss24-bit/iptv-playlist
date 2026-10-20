@@ -1077,6 +1077,8 @@ https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 group-title="DE" tvg-id="TakeshisCastle.de@DACH" tvg-logo="https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png",Takeshi's Castle
 https://jmp2.uk/plu-6054a9f4bc8a5f000771504c.m3u8
+#EXTINF:-1 group-title="DE" tvg-id="TELE5.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tele_5_Logo_2021.svg/500px-Tele_5_Logo_2021.svg.png",TELE 5 (576p)
+https://s6.hopslan.com/tele5X/index.m3u8
 #EXTINF:-1 group-title="DE" tvg-id="teltOwkanal.de@SD" tvg-logo="https://i.imgur.com/G0cImlU.png",teltOwkanal (1080p)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
 #EXTINF:-1 group-title="DE" tvg-id="TerraMaterWILD.de@German" tvg-logo="https://i.imgur.com/EbMK3Ph.png",Terra Mater WILD (1080p)
@@ -1405,6 +1407,8 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 https://jmp2.uk/plu-6971fc07c945e6e4e5bc46bf.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="GeordieShore.de@IT" tvg-logo="https://images.pluto.tv/channels/619263ee9541940007d20d60/colorLogoPNG.png",Geordie Shore (Germany)
 https://jmp2.uk/plu-619263ee9541940007d20d60.m3u8
+#EXTINF:-1 group-title="IT" tvg-id="Giallo.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/960px-Giallo_-_Logo_2014.svg.png",Giallo (1080p)
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="GiornaleRadioTV.it@SD" tvg-logo="https://i.imgur.com/2Y5qiao.png",Giornale Radio TV (720p)
 https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="GiovanniPaoloTV.it@SD" tvg-logo="",Giovanni Paolo TV (1080p)
@@ -1509,6 +1513,8 @@ https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
 http://102.129.186.182:81/nick/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="Nickelodeon.it@SD" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon (Italy)
 https://hostemea1236.s.gy/italia/nikc/23/32/93/locos.m3u8
+#EXTINF:-1 group-title="IT" tvg-id="Nove.it@SD" tvg-logo="https://i.imgur.com/rTjIkGO.png",Nove (1080p)
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="NTN.it@SD" tvg-logo="https://i.imgur.com/AW5fJwa.png",NTN (Italy) (720p)
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="Odeon24.it@SD" tvg-logo="https://i.imgur.com/Ho7SdXY.png" http-referrer="https://www.grupposciscione.it/odeon-2/#/?playlistId=0&videoId=0",Odeon 24 (576p)
@@ -1681,6 +1687,8 @@ https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/
 https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="RDSSocialTV.it@SD" tvg-logo="https://i.imgur.com/bxGvE8C.png",RDS Social TV (720p)
 https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
+#EXTINF:-1 group-title="IT" tvg-id="RealTime.it@SD" tvg-logo="https://i.imgur.com/SPlk2Gx.png",Real Time (1080p)
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="ReggioTV.it@SD" tvg-logo="https://i.imgur.com/cEwJkRV.png",ReggioTV (480p) [Not 24/7]
 https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8
 #EXTINF:-1 group-title="IT" tvg-id="Rete8.it@SD" tvg-logo="https://i.imgur.com/jojCxg3.png",Rete 8
@@ -2075,6 +2083,18 @@ https://directes-tv-cat.3catdirectes.cat/live-content/oca3-hls/master.m3u8
 https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="3CatInfo.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/3CatInfo_logo.svg/960px-3CatInfo_logo.svg.png",3CatInfo (1080p)
 https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="7TV.es@Andalucia" tvg-logo="https://i.imgur.com/rnzMR9R.png",7TV
+https://especial7tv.gestec-video.com/hls/regional.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="7TV.es@Cordoba" tvg-logo="https://i.imgur.com/rnzMR9R.png",7TV Cordoba
+https://streaming004.gestec-video.com/hls/7TVCORDOBA.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="7TV.es@Jaen" tvg-logo="https://i.imgur.com/rnzMR9R.png",7TV Jaen
+https://streaming004.gestec-video.com/hls/7TVJAEN.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="7TV.es@Jerez" tvg-logo="https://i.imgur.com/rnzMR9R.png",7TV Jerez
+https://streaming004.gestec-video.com/hls/7TVJEREZ.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="7TV.es@Malaga" tvg-logo="https://i.imgur.com/rnzMR9R.png",7TV Malaga
+https://streaming004.gestec-video.com/hls/7TVMALAGA.m3u8
+#EXTINF:-1 group-title="ES" tvg-id="7TV.es@Sevilla" tvg-logo="https://i.imgur.com/rnzMR9R.png",7TV Sevilla
+https://especial7tv.gestec-video.com/hls/7TVSEVILLA.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="8LaMarinaTV.es@SD" tvg-logo="https://i.imgur.com/BTJvvBK.png",8 La Marina TV (576p)
 https://streaming005.gestec-video.com/hls/canal24.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="9laLomaTV.es@SD" tvg-logo="https://i.imgur.com/WQP3el2.png",9 la Loma TV (1080p) [Geo-blocked]
@@ -2941,8 +2961,6 @@ https://nord.ayakkabiparti.lol/natgeo/index.m3u8
 https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="NaturalTV.tr@SD" tvg-logo="https://i.imgur.com/rfcJ674.png",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="TR" tvg-id="NOWTV.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png",NOW TV (720p)
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="NTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png",NTV (Turkiye)
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 group-title="TR" tvg-id="Number1Ask.tr@SD" tvg-logo="https://i.imgur.com/slwbux7.png",Number 1 Ask (720p)
