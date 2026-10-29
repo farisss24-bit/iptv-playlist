@@ -39,6 +39,8 @@ https://d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZNL-LIVE/index.m3u8
 https://live.vrtcdn.be/groupb/live/9c429b62-e160-417a-b438-cdf985bcd352/live.isml/.m3u8
 #EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="KTO.fr@SD" tvg-logo="https://i.imgur.com/EY6TsdV.png",KTO (404p) [Not 24/7]
 https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
+#EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="LaUne.be@SD" tvg-logo="https://i.imgur.com/jMwZp7z.png",La Une (1080p)
+http://41.205.93.154/LA-UNE/index.m3u8
 #EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="LCI.fr@SD" tvg-logo="https://i.imgur.com/DED8EXs.png",LCI
 http://149.62.177.107:9999/LCI/index.m3u8
 #EXTINF:-1 group-title="🇧🇪 Belgique" tvg-id="LCI.fr@HD" tvg-logo="https://i.imgur.com/DED8EXs.png",LCI HD (1080p)
@@ -125,6 +127,8 @@ https://9090video.mobtada.com/hls/stream.m3u8
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 group-title="EG" tvg-id="HudaTV.eg@SD" tvg-logo="https://i.imgur.com/1UUjU26.png",Huda TV (720p) [Not 24/7]
 https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
+#EXTINF:-1 group-title="EG" tvg-id="HyaTV.eg@SD" tvg-logo="https://i.imgur.com/XjBIi0e.png",Hya TV (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=187
 #EXTINF:-1 group-title="EG" tvg-id="KoogiTV.eg@SD" tvg-logo="https://i.imgur.com/zojMTP9.png",Koogi TV (1080p)
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 #EXTINF:-1 group-title="EG" tvg-id="Mazzika.eg@SD" tvg-logo="https://i.imgur.com/P7PUHIx.png",Mazzika (576p)
@@ -3465,6 +3469,8 @@ https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8
 https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8
 #EXTINF:-1 group-title="UK" tvg-id="ParanormalState.us@UK" tvg-logo="https://i.imgur.com/NmxhvAE.png",Paranormal State
 https://jmp2.uk/plu-60804d85858bd00007c5d591.m3u8
+#EXTINF:-1 group-title="UK" tvg-id="PBSAmerica.uk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png",PBS America (576p)
+http://185.19.191.2:8090/PBS/index.m3u8
 #EXTINF:-1 group-title="UK" tvg-id="PlanetFun.uk@SD" tvg-logo="https://i.imgur.com/5U1iKUq.png",Planet Fun (1080p)
 http://66.102.126.10:8000/play/a02k/index.m3u8
 #EXTINF:-1 group-title="UK" tvg-id="PlutoTVAlienInvasion.de@GB" tvg-logo="https://images.pluto.tv/channels/6462190b7cb4b1000862dd60/colorLogoPNG.png",Pluto TV Alien Invasion (Germany)
