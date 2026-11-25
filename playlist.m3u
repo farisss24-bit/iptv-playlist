@@ -2578,7 +2578,7 @@ http://90.170.214.40:9700/stream/avatel/nickelodeon/master.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="Nickelodeon.es@HD" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon (Spain) HD (1080p)
 http://90.170.214.40:9700/stream/avatel/nickelodeonhd/master.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="Nortevision.es@SD" tvg-logo="https://i.imgur.com/C5SYw7B.png",Nortevision (1080p)
-http://amaru.dyndns.org:8870/0.m3u8
+http://amaru.dyndns.org:8870/1.m3u8
 #EXTINF:-1 group-title="ES" tvg-id="Nova.es@SD" tvg-logo="https://i.imgur.com/Vx1F4o5.png",Nova (Spain) (1080p)
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/nova.mpd
 #EXTINF:-1 group-title="ES" tvg-id="Nova.es@HD" tvg-logo="https://i.imgur.com/Vx1F4o5.png",Nova (Spain) HD (1080p)
@@ -2889,6 +2889,8 @@ https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavo
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 group-title="TR" tvg-id="BeyazTV.tr@SD" tvg-logo="https://i.imgur.com/uykIdML.png",Beyaz TV (720p) [Not 24/7]
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
+#EXTINF:-1 group-title="TR" tvg-id="BiKanal.tr@SD" tvg-logo="https://www.bikanal.com/frontend/img/logo.webp",Bi Kanal (1080p)
+https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png",Bir TV (720p)
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="BloombergHT.tr@SD" tvg-logo="https://i.imgur.com/bmkXfIE.png",Bloomberg HT (720p)
@@ -3049,10 +3051,8 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
 #EXTINF:-1 group-title="TR" tvg-id="MTurkTV.tr@SD" tvg-logo="https://i.imgur.com/xj1gvrq.png",MTurk TV (1080p)
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="TR" tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",National Geographic (Turkiye)
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:-1 group-title="TR" tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",National Geographic Wild (Turkiye)
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
+#EXTINF:-1 group-title="TR" tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",National Geographic Wild (Turkiye) (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeowild/index.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="NaturalTV.tr@SD" tvg-logo="https://i.imgur.com/rfcJ674.png",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="NOW.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png",NOW (720p)
@@ -3071,6 +3071,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="On4TV.tr@SD" tvg-logo="https://i.imgur.com/qGRa1KI.png",On4 TV (1080p)
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 group-title="TR" tvg-id="PatiTV.tr@SD" tvg-logo="https://patitv.com.tr/wp-content/themes/pati-tv/assets/img/logo-240.png",Pati TV (1080p)
+https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="PersianaTurkiye.fr@SD" tvg-logo="",Persiana Turkiye
 https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="TR" tvg-id="PowerDance.tr@SD" tvg-logo="https://i.imgur.com/QpPteBO.png",Power Dance (1080p)
@@ -3225,6 +3227,8 @@ https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
 #EXTINF:-1 group-title="AE" tvg-id="NourTV.ae@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg",Nour TV
 https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
+#EXTINF:-1 group-title="AE" tvg-id="NTVUAEHD.ae@SD" tvg-logo="https://play-lh.googleusercontent.com/YwH6c1AqIM7LFOIBx0taFOmdHeoyIhLChk8PZCEHMtdm06-fK4fmpmsTl9tMjDRHSvOtz6gFKQygccgXQgAVSTE",NTV UAE HD (720p)
+https://stream.logichost.in/NTV/live/chunklist_w833817414.m3u8
 #EXTINF:-1 group-title="AE" tvg-id="OSNMoviesAction.ae@SD" tvg-logo="https://i.imgur.com/uOzyKup.png",OSN Movies Action (1080p)
 http://116.90.120.151:8000/play/a0ax/index.m3u8
 #EXTINF:-1 group-title="AE" tvg-id="PeaceTVChinese.ae@SD" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/chinese.jpg",Peace TV Chinese (1080p)
